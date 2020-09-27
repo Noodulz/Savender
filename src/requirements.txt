@@ -1,0 +1,4 @@
+tmdbv3api
+spotipy
+termcolor
+pyfiglet

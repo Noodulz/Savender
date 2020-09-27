@@ -2,6 +2,7 @@
 /src/KivyMD
 /src/KivyMD/*
 /src/Lib
+/src/app.py
 /src/Lib/*
 /src/Scripts
 /src/Scripts/*
@@ -17,3 +18,5 @@ books.csv
 Outline.txt
 /KivyMD/
 /KivyMD/*
+src/__pycache__/
+src/__pycache__/*
