@@ -7,3 +7,6 @@ A CLI-based tool in Python that lets users get songs and movie recommendations b
 The main driver program is `src/Savender.py`. Python 3.x is required to run this application. To download the required modules for using, clone this repo and run `pip install -r requirements.txt`. 
 ## Demo
 ![](src/img/savendergif.gif)
+
+## More Info
+[DevPost where you can read more into the thought process behind this project](https://devpost.com/software/savender)
