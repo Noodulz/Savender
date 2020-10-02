@@ -5,8 +5,6 @@ import music
 import movies 
 import time
 
-userInput = 0
-
 def ascii_title():
     ascii_format = Figlet(font='trek',justify="center")
     ascii_title = ascii_format.renderText('Savender')
@@ -39,6 +37,7 @@ ascii_title()
 print("Welcome!\n".center(65))
 time.sleep(0.8)
 menu()
+userInput = 0
 while(userInput != 3):
     userInput = int(input(colored("\nEnter a number to choose: ", 'green')))
     if (userInput == 1):
