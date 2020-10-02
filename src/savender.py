@@ -56,11 +56,4 @@ while(userInput != 3):
 
 
 
-'''
-custom_fig = Figlet(font='trek',justify="center")
-print(custom_fig.renderText('Savender'))
-text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
-print(text.center(60))
-cprint('Hello, World!', 'green', 'on_red')
-test = input("Press Enter!")
-'''
+
