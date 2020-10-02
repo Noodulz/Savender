@@ -32,27 +32,26 @@ def movie_recs():
 
 def music_recs():
     music.main()
-
-ascii_title()
-print("Welcome!\n".center(65))
-time.sleep(0.8)
-menu()
-userInput = 0
-while(userInput != 3):
-    userInput = int(input(colored("\nEnter a number to choose: ", 'green')))
-    if (userInput == 1):
-        music_recs()
-        menu_loop()
-    elif (userInput == 2):
-        movie_recs()
-        menu_loop()
-    elif (userInput == 3):
-        print(colored("\nGoodbye!".center(65), 'green'))
-        break
-    else:
-        print("Enter a valid number or choice!")
-        menu_loop()
-
-
-
+def main():
+    ascii_title()
+    print("Welcome!\n".center(65))
+    time.sleep(0.8)
+    menu()
+    userInput = 0
+    while(userInput != 3):
+        userInput = int(input(colored("\nEnter a number to choose: ", 'green')))
+        if (userInput == 1):
+            music_recs()
+            menu_loop()
+        elif (userInput == 2):
+            movie_recs()
+            menu_loop()
+        elif (userInput == 3):
+            print(colored("\nGoodbye!".center(65), 'green'))
+            break
+        else:
+            print("Enter a valid number or choice!")
+            menu_loop()
+if __name__ == '__main__':
+    main()    
 
